@@ -21,6 +21,7 @@ Facilitar a vizualização dos beneficios do servidor e integrar a comunidade vi
 ## Estrutura do Projeto
 *back-end/*
 - api/
+
 *front-end/*
 - css/
 - js/
