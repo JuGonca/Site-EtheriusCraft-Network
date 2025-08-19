@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opcoes-menu{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.opcoes{
+    margin: 6px;
+    justify-content: center;
+    
+}
+
+.icon{
+    width: 46px;
+    height: 46px;
+    margin: 6px;
+}
