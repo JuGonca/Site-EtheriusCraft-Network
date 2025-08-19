@@ -1,23 +1,21 @@
 header{
     display: flex;
-    align-items: center;
+    align-items: center; /*Centraliza todo o header*/
     justify-content: center;
 }
 
 .opcoes-menu{
-    text-align: center;
+    align-items: center; /*Centraliza icones verticalmente*/
     display: flex;
     justify-content: center;
 }
 
 .opcoes{
-    margin: 6px;
-    justify-content: center;
-    
+    margin: 6.5px;
 }
 
 .icon{
     width: 46px;
     height: 46px;
-    margin: 6px;
+	margin: 6.5px;
 }
