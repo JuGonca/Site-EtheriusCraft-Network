@@ -6,12 +6,13 @@ header{
     display: flex;
     align-items: center; /*Centraliza todo o header*/
     justify-content: center;
-    height: 509px;
+    height: 450px;
     width: auto; 
 
     /*Configuração da imagem*/
     background-image: url("../img/fundo-menu.png");
-    background-size: 509px;
+    background-size: 100%;
+    background-position: center;
 }
 
 .opcoes-menu{
