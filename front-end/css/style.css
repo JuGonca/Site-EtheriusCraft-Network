@@ -1,7 +1,17 @@
+body{
+    background-color: #15002B;
+}
+
 header{
     display: flex;
     align-items: center; /*Centraliza todo o header*/
     justify-content: center;
+    height: 509px;
+    width: auto; 
+
+    /*Configuração da imagem*/
+    background-image: url("../img/fundo-menu.png");
+    background-size: 509px;
 }
 
 .opcoes-menu{
