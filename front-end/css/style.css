@@ -16,9 +16,34 @@ header{
 }
 
 .container{
-    height: 300px;
-    align-items: center; /*Centraliza todo o header*/
+    height: 250px;
+    display: flex;
     justify-content: center;
+    position: relative;
+}
+
+.logo{
+    height: 168px;
+    width: 168px;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.glow{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150%;
+    height: 150%;
+    background-color: #e2acff;
+    border-radius: 50%;
+    filter: blur(40px) brightness(150%);
+    mix-blend-mode: lighten;
+    z-index: 1;
 }
 
 nav{
