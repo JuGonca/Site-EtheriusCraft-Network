@@ -31,7 +31,7 @@ header{
     
 }
 
-.glow{
+.glow1{
     content: "";
     position: absolute;
     top: 50%;
@@ -39,11 +39,25 @@ header{
     transform: translate(-50%, -50%);
     width: 150%;
     height: 150%;
-    background-color: #e2acff;
+    background-color: #e2acffd7;
     border-radius: 50%;
-    filter: blur(40px) brightness(150%);
+    filter: blur(40px) brightness(115%);
     mix-blend-mode: lighten;
     z-index: 1;
+}
+
+.glow2{
+   content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200%;
+    height: 200%;
+    background-color: #efd2ff8e;
+    border-radius: 50%;
+    filter: blur(40px) brightness(125%);
+    z-index: -1; 
 }
 
 nav{
