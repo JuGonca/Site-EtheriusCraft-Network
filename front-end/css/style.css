@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'PackyGreat';
+    src: url(./fonts/PackyGreat.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     background-color: #15002B;
 }
@@ -8,6 +15,7 @@ header{
     justify-content: center;
     height: 450px;
     width: auto; 
+    border: 0px;
 
     /*Configuração da imagem*/
     background-image: url("../img/fundo-menu.png");
@@ -83,16 +91,29 @@ nav{
     justify-content: center;
     list-style-type: none;
     align-items: center;
+      
+}
+.item-menu{
+    padding: 20px;
 }
 
 .item-link{
     display: flex;
     align-items: center;
-    padding: 8px;
-}
+ }  
+ 
+
+ .opcoes-menu{
+    padding: 15px;
+ }
 
 .icon{
     width: 46px;
     height: 46px;
-    
+    padding: 10px;  
+}
+
+.opcoes{
+    font-family: 'PackyGreat', sans-serif;
+    color: #FFFFFF;
 }
