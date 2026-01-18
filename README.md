@@ -2,10 +2,10 @@
 
 <!-- Descrição -->
 ## Descrição 
-Site de  Vitrine para o Servidor EtheriusCraft Network mostrando VIPs, novidades e fórum de interação.
+Site de atualizações para o Servidor de Minecraft sincronizado com o Discord + vitrine para benefícios com sistema de compra.
 
 ## Objetivo
-Facilitar a vizualização dos beneficios do servidor e integrar a comunidade via fórum e discord.
+Desenvolver uma aplicação onde é possível vizualizar as mensagens de atualizações postadas no discord e facilitar o acesso de obtenção de benefícios dentro do servidor do minecraft.
 
 ## Tecnologias Utilizadas
 - *Front-end:* HTML, CSS, JavaScript e Angular.
@@ -13,7 +13,9 @@ Facilitar a vizualização dos beneficios do servidor e integrar a comunidade vi
 - *Banco de Dados:* MySQL.
 
 ## Funcionalidades
-<!-- Colocar conforme o desenvolvimento -->
+- Vizualizar postagens feitas nos chats do Discord de forma sincronizada
+- Realizar cadastro a partir da conta do discord ou conta do google
+- Sistema de compra de benefícios e vips
 
 <!-- Itens Futuros 
 ## Como usar
