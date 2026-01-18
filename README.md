@@ -8,8 +8,8 @@ Site de  Vitrine para o Servidor EtheriusCraft Network mostrando VIPs, novidades
 Facilitar a vizualização dos beneficios do servidor e integrar a comunidade via fórum e discord.
 
 ## Tecnologias Utilizadas
-- *Front-end:* HTML, CSS, Bootstrap e Angular.
-- *Back-end:* Node.js, PHP(Flarum).
+- *Front-end:* HTML, CSS, JavaScript e Angular.
+- *Back-end:* Node.js
 - *Banco de Dados:* MySQL.
 
 ## Funcionalidades
