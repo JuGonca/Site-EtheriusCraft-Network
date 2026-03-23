@@ -5,10 +5,17 @@ body{
 }
 
 header{
-    background-color: green;
+    background-image: url("../img/fundo-menu.png");
+    background-size: 100%;
+    background-position: center;
+
     height: 400px;
     width: auto;
 }
-header section{
-    
+header section#buttons{
+    text-align: right;
+}
+
+header section#content{
+    text-align: center;
 }
