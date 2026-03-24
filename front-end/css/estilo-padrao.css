@@ -14,8 +14,38 @@ header{
 }
 header section#buttons{
     text-align: right;
+    display: block;
+}
+
+.buttom-area{
+    margin: 15px 30px;
+    padding: 10px 0px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.452);
+    display: inline-block;
+}
+
+.botao{
+    padding: 10px 20px;
+    color: #FFFFFF;
+}
+
+.botao.cadastrar{
+    background-color: #420F60;
+    border-radius: 50px;
+}
+
+.botao.entrar:hover{
+    background-color: #264E45;
+    border-radius: 50px;
 }
 
 header section#content{
     text-align: center;
+}
+
+#logo{
+    border-radius:  50%;
+    height: 150px;
+    margin: 2% 0%;
 }
