@@ -1,9 +1,11 @@
+/* página principal */
 body{
     background-color: #010120;
     margin: 0px;
     padding: 0px;
 }
 
+/* Header */
 header{
     background-image: url("../img/fundo-menu.png");
     background-size: 100%;
@@ -46,6 +48,39 @@ header section#content{
 
 #logo{
     border-radius:  50%;
-    height: 150px;
-    margin: 2% 0%;
+    height: 130px;
+    margin: 1% 0%;
 }
+
+/* Barra de Navegação */
+nav{
+    background-color: #420F60;
+    display: inline-block;
+    margin: 20px 50px;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0px 20px;
+}
+
+nav ul li a{
+    align-items: center;
+    display: flex;
+    padding: 0px 5px;
+}
+
+.icon-menu{
+    height: 40px;
+    padding: 10px;
+}
+/* Footer */
