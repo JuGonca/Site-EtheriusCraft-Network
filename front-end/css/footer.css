@@ -1,0 +1,53 @@
+footer{
+    display: flex;
+    background-size: 100%;
+    width: auto;
+    height: 250px;
+    background-color: #080010;
+    padding: 0% 15%;
+    justify-content: space-between;
+}
+
+.img-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+#logo-footer{
+    height: 150px;
+    margin: 15px 0px;
+    border-radius: 50%;
+}
+
+footer section p{
+    color: white;
+    font-size: 20px;
+    width: 300px;
+    padding: 0px 25px;
+}
+
+.social{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.social ul li{
+    list-style: none;
+    padding: 0px 10px;
+    margin: 0px 5px;
+}
+
+.bi{
+    color: white;
+    font-size: 20px;
+}
