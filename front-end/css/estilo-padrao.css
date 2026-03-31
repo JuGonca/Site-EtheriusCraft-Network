@@ -31,6 +31,8 @@ header section#buttons{
 .botao{
     padding: 10px 20px;
     color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s ease;
 }
 
 .botao.cadastrar{
@@ -41,6 +43,10 @@ header section#buttons{
 .botao.entrar:hover{
     background-color: #264E45;
     border-radius: 50px;
+}
+
+.botao.entrar:hover + .botao.cadastrar {
+    background-color: transparent;
 }
 
 /*Imagem-Logo*/
@@ -70,11 +76,11 @@ header section#content{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 130%;
-    height: 130%;
-    background-color: #f3e3fcda;
+    width: 140%;
+    height: 140%;
+    background-color: #f6cdfae1;
     border-radius: 50%;
-    filter: blur(30px) brightness(115%);
+    filter: blur(35px) brightness(115%);
     mix-blend-mode: lighten;
     z-index: 1;
 }
@@ -87,7 +93,7 @@ header section#content{
     transform: translate(-50%, -50%);
     width: 170%;
     height: 170%;
-    background-color: #efd2ff8e;
+    background-color: #c665faa6;
     border-radius: 50%;
     filter: blur(40px) brightness(125%);
     z-index: 0; 
@@ -101,19 +107,21 @@ nav{
     border-radius: 15px;
     margin: 50px;
     text-align: center;
+    box-shadow: 5px 5px 10px #010120 ;
 }
 
 nav ul{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 0px;
+    padding: 10px;
     margin: 0px;
 }
 
 nav ul li{
     list-style: none;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    margin: 0px 10px;
 }
 
 nav ul li a{
@@ -124,8 +132,19 @@ nav ul li a{
     text-decoration: none;
 }
 
+nav ul li:hover{
+    list-style: none;
+    padding: 0px 10px;
+    margin: 0px 10px;
+
+    background-color: #5c1c81;
+    border-radius: 10px;
+}
+
 .icon-menu{
     height: 35px;
-    padding: 5px 10px;
+    padding: 5px 5px 5px 0px;
 }
+
+
 /* Footer */
