@@ -19,6 +19,7 @@ header section#buttons{
     display: block;
 }
 
+/*btn Cadastro-Login*/
 .buttom-area{
     margin: 15px 30px;
     padding: 10px 0px;
@@ -42,21 +43,63 @@ header section#buttons{
     border-radius: 50px;
 }
 
+/*Imagem-Logo*/
 header section#content{
     text-align: center;
+}
+
+#logo-container {
+    margin: 1% 0%;
 }
 
 #logo{
     border-radius:  50%;
     height: 130px;
-    margin: 1% 0%;
+    position: relative;
+    z-index: 2;
 }
+
+.glow {
+    position: relative;
+    display: inline-block;
+}
+
+.glow1{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130%;
+    height: 130%;
+    background-color: #f3e3fcda;
+    border-radius: 50%;
+    filter: blur(30px) brightness(115%);
+    mix-blend-mode: lighten;
+    z-index: 1;
+}
+
+.glow2{
+   content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 170%;
+    height: 170%;
+    background-color: #efd2ff8e;
+    border-radius: 50%;
+    filter: blur(40px) brightness(125%);
+    z-index: 0; 
+}
+
 
 /* Barra de Navegação */
 nav{
     background-color: #420F60;
     display: inline-block;
-    margin: 20px 50px;
+    border-radius: 15px;
+    margin: 50px;
     text-align: center;
 }
 
@@ -77,10 +120,12 @@ nav ul li a{
     align-items: center;
     display: flex;
     padding: 0px 5px;
+    color: white;
+    text-decoration: none;
 }
 
 .icon-menu{
-    height: 40px;
-    padding: 10px;
+    height: 35px;
+    padding: 5px 10px;
 }
 /* Footer */
